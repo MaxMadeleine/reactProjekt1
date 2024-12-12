@@ -10,11 +10,12 @@ function App() {
 
   return (
     <Router>
-    <Navbar/>
-    <Main/>
+      <Navbar bgColor="#fff" ulColor="tomato" />
+      <Main/>
     <Footer/>
     </Router>
   )
 }
 
 export default App
+
